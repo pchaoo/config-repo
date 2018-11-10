@@ -12,4 +12,4 @@ spring:
     username: guest
     password: guest
     virtual-host: /
-env: test10
+env: test11
