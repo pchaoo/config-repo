@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://120.55.40.247:3306/springcloud_sell
+    username: developer
+    password: 123456
+  rabbitmq:
+    host: 192.168.1.15
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+env: test8
